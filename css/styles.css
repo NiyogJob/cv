@@ -99,10 +99,12 @@ p{
 .grouptext1{
     
     display: inline-block;
+    position:relative;
     
 }
 .grouptext2{
     margin:0 auto;
+    position:relative;
 }
 .myskills{
     padding-top:20px;
