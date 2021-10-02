@@ -16,9 +16,9 @@ body{
 
 h1{
 
-    margin: 30px auto 0 auto;
+    margin-bottom: 30px;
     font-size: 5rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     display: inline-block;
 
     color: #66BFBF;
@@ -26,6 +26,28 @@ h1{
     
 }
 
+ol {
+    list-style: none;
+    counter-reset: steps;
+  }
+  ol li {
+    counter-increment: steps;
+  }
+  ol li::before {
+    content: counter(steps);
+    margin-right: 0.5rem;
+    background: #ff6f00;
+    color: white;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    line-height: 1.2em;
+  }
+  ol ol li::before {
+    background: darkorchid;
+  }
 .programmer{
 
     
