@@ -6,8 +6,7 @@ body{
 }
 
 .socialcontainer{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    
     text-align: right;
     margin-right: 30px;
    
@@ -63,24 +62,27 @@ h2{
     color:#66BFBF ;
     
     }
-p{
-    font-family: 'Source Sans Pro', sans-serif;
-    width: 60%;
-    margin: 0 auto 0 auto;
-    line-height: 1.5;
-}
+
 
 .skillpara{
     font-style: italic;
 }
 .profilename{
     display: inline-block;
-    position: absolute;
-    top:80px;
-    left: 550px;
-    padding-top: 2%;
+    padding: 0%;
+    margin-bottom: 0%;
+    position: relative
+
  
 }
+
+.designation{
+    align-items: center;
+    position: relative;
+    
+}
+
+
 
 .skill1header{
    
