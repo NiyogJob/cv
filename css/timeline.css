@@ -186,10 +186,13 @@ body{
 .socialcontainer{
     
     
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-right: 30px;
   
 }
+
+
 
 i{
 

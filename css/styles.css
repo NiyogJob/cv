@@ -7,7 +7,10 @@ body{
 
 .socialcontainer{
     
-    text-align: right;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
     margin-right: 30px;
    
   
@@ -64,6 +67,7 @@ h2{
     }
 
 
+
 .skillpara{
     font-style: italic;
 }
@@ -75,6 +79,8 @@ h2{
 
  
 }
+
+
 
 .designation{
     align-items: center;
@@ -170,10 +176,22 @@ hr{
 
     background-color: whitesmoke;
  
-   margin-bottom: 50px;
-   padding-bottom: 100px;
+   
+   padding-bottom: 30px;
    position: relative;
  
+}
+
+.skill-images{
+
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    margin-top: 2%;
+    
+}
+.skill-container{
+    margin-top: 2%;
 }
 
 
