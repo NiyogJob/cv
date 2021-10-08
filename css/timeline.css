@@ -10,8 +10,28 @@ body{
 
 .bootdeys{
 
+    
     margin: 30px 10%;
+
 }
+
+@keyframes movefromleft {
+    0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+  }
+
+  @keyframes movefromright {
+    0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+  }
 .timeline-centered.timeline-sm .timeline-entry {
   margin-bottom: 20px !important;
 }
@@ -38,6 +58,7 @@ body{
   margin-left: -4px;
 }
 .timeline-centered .timeline-entry {
+    
   position: relative;
   width: 50%;
   float: right;
@@ -56,12 +77,25 @@ body{
   margin-bottom: 0;
 }
 .timeline-centered .timeline-entry.left-aligned {
+
+    
   float: left;
 }
-.timeline-centered .timeline-entry.left-aligned .timeline-entry-inner {
+
+.timeline-centered .timeline-entry.left-aligned .timeline-entry-inner{
+    
   margin-left: 0;
   margin-right: -28px;
 }
+.right{
+    animation: 1s ease-out 0s 1 movefromright;
+  
+}
+
+.left {
+    animation: 1s ease-out 0s 1 movefromleft;
+    
+  }
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-time {
   left: auto;
   right: -115px;
