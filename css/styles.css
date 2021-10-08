@@ -18,6 +18,7 @@ body{
 
 h1{
 
+    animation: 1s ease-out 0s 1 slideInFromLeft;
     margin-bottom: 30px;
     font-size: 5rem;
     font-family: 'Source Sans Pro', sans-serif;
@@ -28,6 +29,45 @@ h1{
     
 }
 
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromLeft2 {
+    0% {
+        opacity: 1;
+      transform: translateX(-200%);
+    }
+    100% {
+        opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.5,1.5);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.skillpicture{
+
+    
+        animation: zoominoutsinglefeatured 1s 2s forwards;
+    
+
+}
 ol {
     list-style: none;
     counter-reset: steps;
@@ -62,7 +102,12 @@ ol {
 }
 
 h2{
+
+    
+    animation: 2s ease-out 0s 1 slideInFromLeft2;
     color:#66BFBF ;
+    
+    
     
     }
 
