@@ -1,3 +1,4 @@
+
 body{
     margin-top:20px;
     background:#eee;
@@ -391,4 +392,5 @@ imgtext{
 }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p .timeline-img.pull-right {
   margin: 5px 0 0 10px;
+
 }

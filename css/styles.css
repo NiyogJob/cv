@@ -199,9 +199,11 @@ h2{
 
 
 h3{
+    animation: 2s ease-out 0s 1 slideInFromLeft2;
     color:#11999E;
     width: 40%;
     margin:0 auto;
+    
    
 }
 
