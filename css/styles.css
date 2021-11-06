@@ -111,6 +111,18 @@ h2{
     
     }
 
+    .navbar-brand{
+
+        font-size: 30px;
+    }
+
+    .navbar-toggler{
+        size: 50px;
+    }
+
+    .nav-item{
+        font-size: 20;
+    }
 
 
 .skillpara{
